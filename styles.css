@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+#projects {
+  margin: 20px;
+
+}
+
+.projects-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+
+.project {
+  background-color: #e9ecef;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.project__img{
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
