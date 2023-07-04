@@ -16,14 +16,15 @@ header {
 
 .container{
   margin: 0 auto;
-  width: 1351px;
+  max-width: 1351px;
   padding: 0 20px;
 }
 
 .projects-wrapper{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 
