@@ -71,7 +71,7 @@ footer {
   }
 
   .project-title {
-    font-size: 30px;
+    font-size: 35px;
   }
   .project {
     width: 100%;
@@ -79,10 +79,9 @@ footer {
   }
 
   .project__img {
-    object-fit: cover;
-    border-radius: 5px;
     width: 100%;
-    height: 490px;
+    max-width: 1010px;
+    height: 65vh;
   }
 
   .project__title {
@@ -93,5 +92,17 @@ footer {
     height: 37px;
     width: 100%;
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .project {
+    width: 100%;
+    /* height: 800px; */
+  }
+
+  .project__img {
+    width: 418px;
+    height: 490px;
   }
 }
